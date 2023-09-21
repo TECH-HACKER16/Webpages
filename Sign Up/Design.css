@@ -1,0 +1,97 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: radial-gradient( circle farthest-corner at 20% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    
+}
+.container{
+    height: 100vh;
+}
+h1{
+    letter-spacing:1px;
+    color:#f4511e;
+    font-style:normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: grey;
+    text-decoration-style:dashed;
+    text-underline-offset:8.5px;
+    text-underline-position:auto;
+    font-weight:500;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 29px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 13.5pt;
+    border-radius: 25px;
+    border-color: #f4511e;
+}
+input[type=email] {
+    width: 100%;
+    padding: 10px 29px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 15pt;
+    border-radius: 25px;
+    border-color: #f4511e;
+}
+input[type=password] {
+    width: 100%;
+    padding: 10px 29px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 15pt;
+    border-radius: 25px;
+    border-color: #f4f01e;
+}
+
+.box 
+{
+    border-radius:55px ;
+    background-color: aliceblue;
+    width: 370px;
+    padding: 50px;
+    border: 3px solid red;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top:45px ;
+    font-size:16.5px;
+}
+.button {
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} 
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+} 
+.button:hover span {
+    padding-right: 25px;
+} 
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
