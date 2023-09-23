@@ -1,0 +1,150 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient( 220deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+}
+.container{
+    height: 100vh;
+
+}
+::placeholder{
+  color:rgb(243, 224, 14);
+}
+h1{
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: italic;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight:light ;
+  text-underline-offset:10px;
+  margin-top:-25px;
+}
+h3{
+  font-size:larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(212, 14, 243);
+  font-weight: lighter;
+}
+.h3{
+  font-size:larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+.box 
+{
+    border-radius:20px ;
+    background-color: aliceblue;
+    width: 470px;
+    padding: 50px;
+    border: 3px solid red;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top:45px ;
+    font-size:16.5px;
+}
+.flex-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5px;
+    margin:0 auto;
+  }
+  
+  .flex-container>item1 {
+    background-color:white ;
+    color:rgb(128, 128, 128);
+    width: 450px;
+    margin-top: 30px;
+    text-align: justify;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+  }
+  .flex-container>item2 {
+    background-color: rgb(212, 14, 243);
+    width: 450px;
+    margin-top: 30px;
+    text-align: justify;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+  }
+  input[type=text] {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #1ee958;
+    width: 70%;
+    padding: 10px 29px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 13.5pt;
+    border-radius:3px;
+    border-color: #5248484e;
+
+}
+input[type=email] {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid #1ee958;
+  width: 70%;
+  padding: 10px 29px;
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 13.5pt;
+  border-radius:3px;
+  border-color: #5248484e;
+  background-color: rgb(212, 14, 243);
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 13px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 60%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+  
